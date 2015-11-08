@@ -2,7 +2,7 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/vundle
+set rtp+=~/.vim/bundle/vundle.vim
 call vundle#begin()
 
 " let Vundle manage Vundle, required
@@ -11,9 +11,12 @@ Plugin 'VundleVim/Vundle.vim'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
-Plugin 'tpope/vim-fugitive'
+Bundle 'tpope/vim-fugitive'
+Bundle 'scrooloose/nerdtree.git'
 " plugin from http://vim-scripts.org/vim/scripts.html
 Plugin 'L9'
+
+autocmd vimenter * NERDTree
 
 " Use the Solarized Dark theme
 set background=dark
