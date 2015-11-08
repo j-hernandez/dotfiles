@@ -26,7 +26,8 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'bling/vim-airline'
 
-autocmd vimenter * NERDTree
+call vundle#end()            " required
+filetype plugin indent on    " required
 
 " Use the Solarized Dark theme
 set background=dark
