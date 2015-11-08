@@ -16,6 +16,16 @@ Plugin 'scrooloose/nerdtree.git'
 " plugin from http://vim-scripts.org/vim/scripts.html
 Plugin 'L9'
 
+Plugin 'StanAngeloff/php.vim'
+Plugin 'tpope/vim-ragtag'
+Plugin 'joonty/vdebug'
+Plugin 'shawncplus/phpcomplete.vim'
+Plugin '2072/PHP-Indenting-for-VIm'
+Plugin 'scrooloose/syntastic'
+Plugin 'kien/ctrlp.vim'
+Plugin 'tpope/vim-surround'
+Plugin 'bling/vim-airline'
+
 autocmd vimenter * NERDTree
 
 " Use the Solarized Dark theme
