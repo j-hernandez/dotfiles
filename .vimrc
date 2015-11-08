@@ -2,7 +2,7 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/vundle.vim
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " let Vundle manage Vundle, required
@@ -11,8 +11,8 @@ Plugin 'j-hernandez/Vundle.vim'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
-Bundle 'tpope/vim-fugitive'
-Bundle 'scrooloose/nerdtree.git'
+Plugin 'tpope/vim-fugitive'
+Plugin 'scrooloose/nerdtree.git'
 " plugin from http://vim-scripts.org/vim/scripts.html
 Plugin 'L9'
 
