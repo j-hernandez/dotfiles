@@ -31,7 +31,7 @@ filetype plugin indent on    " required
 
 " Use the Solarized Dark theme
 set background=dark
-colorscheme solarized
+colorscheme colorsbox-material
 let g:solarized_termtrans=1
 
 " Use the OS clipboard by default (on versions compiled with `+clipboard`)
