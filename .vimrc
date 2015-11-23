@@ -135,4 +135,4 @@ if has("autocmd")
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
 endif
 
-autocmd vimenter * NERDTree
+"autocmd vimenter * NERDTree
