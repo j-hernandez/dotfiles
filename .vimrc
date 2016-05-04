@@ -25,6 +25,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'bling/vim-airline'
+Plugin 'faith/vim-go'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
