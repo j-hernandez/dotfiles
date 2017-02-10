@@ -26,7 +26,9 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'bling/vim-airline'
 Plugin 'fatih/vim-go'
-Plugin 'joonty/vim-phpqa.git'
+" Plugin 'joonty/vim-phpqa.git'
+Plugin 'tobyS/Vmustache'
+Plugin 'tobyS/pdv'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
