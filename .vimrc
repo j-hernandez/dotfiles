@@ -138,7 +138,7 @@ if has("autocmd")
 	" Treat .md files as Markdown
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
         " Auto-enter nerdtree
-        autocmd vimenter * NERDTree
+        " autocmd vimenter * NERDTree
 endif
 
 let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
