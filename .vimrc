@@ -137,6 +137,9 @@ if has("autocmd")
 	autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 	" Treat .md files as Markdown
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
+        " Auto-enter nerdtree
+        autocmd vimenter * NERDTree
 endif
 
-"autocmd vimenter * NERDTree
+let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
+nnoremap <buffer> <C-p> :call pdv#DocumentCurrentLine()<CR>"
