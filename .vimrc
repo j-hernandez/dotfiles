@@ -142,4 +142,4 @@ if has("autocmd")
 endif
 
 let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
-nnoremap <buffer> <C-p> :call pdv#DocumentCurrentLine()<CR>"
+nnoremap <C-p> :call pdv#DocumentCurrentLine()<CR>"
