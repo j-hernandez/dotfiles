@@ -141,5 +141,5 @@ if has("autocmd")
         " autocmd vimenter * NERDTree
 endif
 
-let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
+let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates"
 nnoremap <C-p> :call pdv#DocumentCurrentLine()<CR>"
