@@ -139,7 +139,10 @@ if has("autocmd")
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
         " Auto-enter nerdtree
         " autocmd vimenter * NERDTree
+        let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates"
+        autocmd FileType php noremap <C-d> <ESC>:call pdv#DocumentCurrentLine()<CR>i
+        autocmd FileType php nnoremap <C-d> :call pdv#DocumentCurrentLine()<CR>
+        autocmd FileType php vnoremap <C-d> :call pdv#DocumentCurrentLine()<CR>
 endif
 
-let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates"
-nnoremap <C-p> :call pdv#DocumentCurrentLine()<CR>"
+
