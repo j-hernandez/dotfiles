@@ -81,7 +81,7 @@ syntax on
 set cursorline
 " Make tabs as wide as four spaces
 " Use spaces for tabs
-set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+set tabstop=2 softtabstop=2 expandtab shiftwidth=2 smarttab
 " Show “invisible” characters
 set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
 set list
