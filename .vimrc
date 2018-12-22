@@ -109,6 +109,8 @@ set showmode
 set title
 " Show the (partial) command as it’s being typed
 set showcmd
+" Show hidden files in NERDTree
+let NERDTreeShowHidden=1
 " Use relative line numbers
 if exists("&relativenumber")
 	set relativenumber
