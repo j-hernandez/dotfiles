@@ -21,7 +21,6 @@ Plugin 'tpope/vim-ragtag'
 Plugin 'joonty/vdebug'
 Plugin 'shawncplus/phpcomplete.vim'
 Plugin '2072/PHP-Indenting-for-VIm'
-Plugin 'scrooloose/syntastic'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'bling/vim-airline'
@@ -29,7 +28,8 @@ Plugin 'fatih/vim-go'
 " Plugin 'joonty/vim-phpqa.git'
 Plugin 'tobyS/Vmustache'
 Plugin 'tobyS/pdv'
-
+Plugin 'thiagoalessio/rainbow_levels.vim'
+Plugin 'w0rp/ale'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
